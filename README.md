@@ -9,7 +9,7 @@ before applying business logic ----> ![image](https://github.com/user-attachment
 after applying business logic -----> ![image](https://github.com/user-attachments/assets/02fd8d8f-5f6f-48a5-8edd-4f09c4a9e4a8)
 
 
-REPORT ZTRIAL1.
+REPORT ZPURCHASE_INFO_CUD.
 
 tables : ZPURCHASE_INFO.
 

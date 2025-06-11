@@ -4,7 +4,9 @@ DATABASE CREATION AND CUD OF BUSINESS LOGICS
 ![image](https://github.com/user-attachments/assets/8e3d53b6-11c3-4ba2-8419-ed5e658396e6)
 ![image](https://github.com/user-attachments/assets/c61cda55-dbbb-4e52-a919-10d26a318d6c)
 
+before ----> ![image](https://github.com/user-attachments/assets/2ebddede-118b-41e4-b8a2-83a14f72afa6)
 
+after -----> ![image](https://github.com/user-attachments/assets/02fd8d8f-5f6f-48a5-8edd-4f09c4a9e4a8)
 
 
 REPORT ZTRIAL1.

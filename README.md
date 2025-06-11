@@ -26,16 +26,28 @@ select single * from ZPURCHASE_INFO into @data(pur) where purchase_order = @p_1.
 if sy-subrc = 0.
 lv_found = 'X'.
 
-case p_u.    
-when 'U'.      
+if = 'X'.     
 pur-AMOUNT = PUR-AMOUNT + 1000.     
 modify  ZPURCHASE_INFO from @pur.    
 endcase.
 endif.
 
 
-case p_d.  
-when 'D'.    
-DELETE FROM zpurchase_info.  
-endcase.
+if p_d = abap_true.    
+DELETE FROM zpurchase_info WHERE purchase_order = @p_1.  
+endif.
+
+
+else.  
+
+
+case p_1.    
+pur-purchase_order = p_1.   
+pur-amount = 0.    
+INSERT zpurchase_info FROM @pur.  
+endcase.    
+endif.
+
+
+
 

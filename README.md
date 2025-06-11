@@ -6,9 +6,9 @@ DATABASE CREATION AND CUD OF BUSINESS LOGICS
 
 before applying business logic ----> ![image](https://github.com/user-attachments/assets/2ebddede-118b-41e4-b8a2-83a14f72afa6)
 
-after applying business logic -----> ![image](https://github.com/user-attachments/assets/02fd8d8f-5f6f-48a5-8edd-4f09c4a9e4a8)
+BUSINESS Logic execution ----------- ![image](https://github.com/user-attachments/assets/bea39c39-b0be-4ade-8755-5d0fb5ad599a)
 
-![image](https://github.com/user-attachments/assets/53d7eed2-a642-46fb-bd12-e66e22adc494)
+after applying business logic -----> ![image](https://github.com/user-attachments/assets/02fd8d8f-5f6f-48a5-8edd-4f09c4a9e4a8)
 
 
 REPORT ZPURCHASE_INFO_CUD.
